@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Estilo do cabeçalho */
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos do formulário */
+form {
+    background: #ff0000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+/* Container para inputs e labels */
+div {
+    margin-bottom: 15px;
+}
+
+/* Estilos dos labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos dos inputs e textarea */
+input[type="text"],
+input[type="number"],
+input[type="url"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px; 
+    border: 1px solid #48474b;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s; /* Transição suave para a borda */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+    border-color: #ffffff; /* Muda a cor da borda ao focar */
+}
+
+/* Estilo do botão */
+button {
+    background-color: #000000;
+    color: rgb(238, 238, 238);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000; /* Muda a cor do texto ao passar o mouse */
+}
+
+/* Estilos da lista de livros */
+#listaLivros {
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+#listaLivros div {
+    background: #a8a8a8;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.1);
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* Estilo para o botão de cadastro */
+.btn-cadastrar {
+    display: block;
+    text-align: center;
+    background-color: #ff0000;
+    color: rgb(238, 238, 238);
+    padding: 10px 15px;
+    border-radius: 4px;
+    width: fit-content;
+    margin: 20px auto;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+.btn-cadastrar:hover {
+    background-color: #ffffff;
+    color: #ff0000; 
+}
